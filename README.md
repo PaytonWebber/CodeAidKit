@@ -32,5 +32,5 @@ To refactor the code and save it to a new file, add the -r or --refactor flag:
 python pylintkit_cli.py -r path/to/your/code.py
 ```
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
