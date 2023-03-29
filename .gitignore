@@ -1,0 +1,61 @@
+# Python files
+pycache/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+.virtualenv/
+env/
+ENV/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# PyCharm files
+.idea/
+
+# Visual Studio Code files
+.vscode/
+
+# pytest cache
+.pytest_cache/
+
+# Distribution / packaging
+.Python
+dist/
+*.egg-info/
+*.egg
+*.wheel
+develop-eggs/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
