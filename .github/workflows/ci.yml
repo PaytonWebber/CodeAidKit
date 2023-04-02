@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.6, 3.7, 3.8, 3.9, 3.10]
+        python-version: [3.7, 3.8, 3.9]
 
     steps:
     - name: Check out repository
@@ -38,3 +38,6 @@ jobs:
         black --check .
         flake8
         isort --check-only --profile black .
+    - name: Prevent push on failure
+      if: ${{ job.status != 'success' }}
+      run: exit 1
